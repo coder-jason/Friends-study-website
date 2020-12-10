@@ -1,0 +1,21 @@
+body{
+	background-image: url(study-background.jpg);
+	background: cover;
+
+}
+
+.list li a{
+	color:white;
+	text-decoration: none;
+}
+
+li{
+	padding: 20px;
+	color: orange;
+}
+
+li a:hover{
+	color: orange;
+	background-color:transparent;
+	
+}

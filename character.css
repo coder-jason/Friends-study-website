@@ -1,0 +1,29 @@
+.wrapper h1{
+	text-align: center;
+	font-size:40px;	
+	font-family: 'Raleway', sans-serif;
+	color: #de8a0d;
+}
+
+.img-area{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.single-img{
+	padding: 5px 5px;
+	clip-path: circle(40%);
+}
+
+img:hover{
+	opacity: 0.6;
+	transition: 0.9s;
+	transform: scale(1.1);
+}
+	
+body{
+	background-color: #080807;
+}
+
